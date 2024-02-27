@@ -1,4 +1,5 @@
 import "./App.css";
+import HookForm from "./components/HookForm";
 import RefForm from "./components/RefForm";
 import SimpleForm from "./components/SimpleForm";
 import StatefullForm from "./components/StatefullForm";
@@ -9,7 +10,8 @@ function App() {
       <h3>Register form</h3>
       {/* <SimpleForm /> */}
       {/* <StatefullForm /> */}
-      <RefForm />
+      {/* <RefForm /> */}
+      <HookForm />
     </>
   );
 }
